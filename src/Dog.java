@@ -7,6 +7,7 @@ public class Dog extends Animal{
         super(weight, age, name);
     }
 
+    @Override
     public void move() {
         System.out.println("The dog named " + super.getName() + " is running on the ground");
     }
